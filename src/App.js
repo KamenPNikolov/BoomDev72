@@ -12,11 +12,8 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          Edit the <code>./src</code> folder to add components.
-        </div>
-        <div class = "tags">
-        <Tag tags = {["boomdotdev", "task", "tags", "react"]}></Tag>
-        </div>
+          <Tag tags = {["boomdotdev", "task", "tags", "react"]}></Tag>
+        </div>        
       </div>
     </div>
   );
