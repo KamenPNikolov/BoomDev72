@@ -1,17 +1,13 @@
 import React from "react";
 
 export default class Tag extends React.Component{
-constructor(props){
-    super(props);
-   this.tags =  props.tags;
-}
 render(){
-    return <div class = "tags">
-       <div class = "tag">#{this.tags[0]}</div> 
-       <div class = "tag">#{this.tags[1]}</div>
-       <div class = "tag">#{this.tags[2]}</div>
-       <div class = "tag">#{this.tags[3]}</div>
-    </div>
+    return (<div class= "tags">
+       <div class = "tag">#{this.props.tags[0]||"default text"}</div> 
+       <div class = "tag">#{this.props.tags[1]||"default text"}</div>
+       <div class = "tag">#{this.props.tags[2]||"default text"}</div>
+       <div class = "tag">#{this.props.tags[3]||"default text"}</div>
+       </div>);
 }
 
-}
+};
