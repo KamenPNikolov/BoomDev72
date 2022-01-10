@@ -4,10 +4,12 @@ import App from "./App";
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
+import Tag from "./Tag";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Tag tags = {["boomdotdev", "task", "tags", "react"]}/>
   </React.StrictMode>,
   document.getElementById("root")
 );
