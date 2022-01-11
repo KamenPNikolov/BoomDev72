@@ -9,7 +9,6 @@ import Tag from "./Tag";
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Tag tags = {["boomdotdev", "task", "tags", "react"]}/>
   </React.StrictMode>,
   document.getElementById("root")
 );
