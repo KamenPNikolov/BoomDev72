@@ -4,7 +4,6 @@ import App from "./App";
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
-import Tag from "./Tag";
 
 ReactDOM.render(
   <React.StrictMode>
