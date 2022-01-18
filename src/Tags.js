@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Tag(props){
+export default function Tags(props){
 
     return (<div className="tags">
        <div className="tag">#{props.tags[0]}</div> 
